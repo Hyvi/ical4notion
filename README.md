@@ -1,3 +1,6 @@
+## Start Server
+sudo PORT=80  node ~/ical4notion/index.js <secret>
+
 ical4notion
 ======================
 ical4notion is a tool to host http ical using your notion database.

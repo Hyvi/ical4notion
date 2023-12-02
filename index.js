@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const http = require('http');
-const port = parseInt(process.env.PORT) || 8080;
+const port = parseInt(process.env.PORT) || 80;
 const httpServer = http.createServer(app);
 
 const ical = require('ical-generator');
