@@ -10,7 +10,8 @@ let icalName = process.argv.slice(3).join(' ');
 icalName = icalName !== '' ? icalName : 'ical4notion';
 
 const notion = new Client({
-    auth: process.argv[2]
+    auth: process.env.NOTION_TOKEN
+
 });
 
 function isIncludeTime(str){
