@@ -1,5 +1,6 @@
 ## Start Server
-sudo PORT=80  node ~/ical4notion/index.js <secret>
+1. 编辑.env文件，增加变量NOTION_TOKEN
+2. docker-compose up -d
 
 ical4notion
 ======================
