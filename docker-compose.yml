@@ -1,6 +1,6 @@
 version: "2"
 services:
-  node:
+  ical4notion:
       # image: "node:latest"
       image: "node:18-alpine3.17"
       environment:
@@ -8,6 +8,6 @@ services:
       volumes:
         - .:/app
       ports:
-        - "80:80"
+        - "80"
       working_dir: /app
       command: sh -c "npm install && npm start"
