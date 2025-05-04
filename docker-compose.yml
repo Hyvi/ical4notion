@@ -11,6 +11,4 @@ services:
         # - "80"
       working_dir: /app
       command: sh -c "npm install && npm start"
-      depends_on:
-        - nginx
       restart: always
